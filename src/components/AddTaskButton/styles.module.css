@@ -1,0 +1,24 @@
+.button {
+    border: 2px solid black;
+    background: #C9C0BB;
+    font-size: 1.75rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 20px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: auto;
+    margin-bottom: 20px;
+    border-radius: 3px;
+
+    &:hover {
+        opacity: 0.85;
+    }
+
+    span {
+        border: 1px solid gray;
+        padding: 5px 10px;
+        font-weight: bold;
+        color: green;
+    }
+}

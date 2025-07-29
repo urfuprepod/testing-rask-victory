@@ -1,0 +1,26 @@
+.container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    display: none;
+    background-color: rgba(80, 80, 80, 0.6);
+    &.active {
+        display: block;
+    }
+}
+
+.drawer {
+    display: block;
+    padding: 20px 10px;
+    border-radius: 5px;
+    width: 50%;
+    max-width: 500px;
+    height: 100dvh;
+    transition: all 0.2s ease;
+    background: white;
+    border-radius: 5px;
+    margin-left: auto;
+}

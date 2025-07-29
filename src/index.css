@@ -1,0 +1,23 @@
+body {
+    padding: 20px 10px;
+    box-sizing: border-box;
+    max-width: 1540px;
+    margin: 0 auto;
+    min-height: 100vh;
+
+    * {
+        font-family: "Arial" !important;
+    }
+}
+
+.rdrDayNumber span {
+    color: #1d2429 !important;
+}
+
+.rdrDefinedRangesWrapper {
+    display: none;
+}
+
+.custom-selected-start {
+    background-color: #3d91ff;
+}
